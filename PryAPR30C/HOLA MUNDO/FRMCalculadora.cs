@@ -42,5 +42,10 @@ namespace PryAPR30C.HOLA_MUNDO
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

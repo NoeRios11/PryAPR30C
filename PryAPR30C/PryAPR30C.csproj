@@ -50,6 +50,12 @@
     <Compile Include="cafeteria\Bebida.cs" />
     <Compile Include="cafeteria\BebidaCaliente.cs" />
     <Compile Include="cafeteria\BebidaFria.cs" />
+    <Compile Include="cafeteria\FMRLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cafeteria\FMRLogin.Designer.cs">
+      <DependentUpon>FMRLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="cafeteria\FRMCafeteria.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,13 +74,30 @@
     <Compile Include="HOLA MUNDO\FRMCalculadora.Designer.cs">
       <DependentUpon>FRMCalculadora.cs</DependentUpon>
     </Compile>
+    <Compile Include="Maquina Expendedora\FMRMaquinaExpendedora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Maquina Expendedora\FMRMaquinaExpendedora.Designer.cs">
+      <DependentUpon>FMRMaquinaExpendedora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Maquina Expendedora\Producto.cs" />
+    <Compile Include="Maquina Expendedora\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="cafeteria\FMRLogin.resx">
+      <DependentUpon>FMRLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cafeteria\FRMCafeteria.resx">
       <DependentUpon>FRMCafeteria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HOLA MUNDO\FRMCalculadora.resx">
       <DependentUpon>FRMCalculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Maquina Expendedora\FMRMaquinaExpendedora.resx">
+      <DependentUpon>FMRMaquinaExpendedora.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

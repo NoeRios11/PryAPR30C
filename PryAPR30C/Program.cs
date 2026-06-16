@@ -17,7 +17,7 @@ namespace PryAPR30C
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FRMCafeteria());
+            Application.Run(new Form1());
         }
     }
 }
